@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #dad4c3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.nomination-form-container {
+  
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 20px;
+  color: #1f1e1e;
+  max-width: 750px;
+  margin: 30px;
+}
+
+.nomination-form {
+  color: #1f1e1e;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.form-group {
+  color: #1f1e1e;
+  margin-bottom: 20px;
+}
+ 
+label{
+    font-weight:500;
+    color: #3d3f2d;
+    
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #080808;
+  font-size: medium;
+}
+
+.drop-zone {
+  font-weight: bold;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.uploaded-files {
+  margin-top: 20px;
+}
+
+.uploaded-files ul {
+  list-style: none;
+  padding: 0;
+}
+
+.uploaded-files li {
+  margin-bottom: 10px;
+}
+
+.remove-file-btn {
+  color: #d9534f;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.submit-button {
+  background: #4caf50;
+  color: #fff;
+  padding: 15px 25px;
+  width:100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background: #115f15;
+}
+
+.success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #4caf50;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .nomination-form-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 476px) {
+  .nomination-form-container {
+    width: 100%;
+  }
+}
